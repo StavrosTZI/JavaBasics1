@@ -5,7 +5,14 @@ public class Users {
     private String password;
     private String name;
     private String surname;
-    int usersCounter;
+    static int usersCounter;
+
+    public Users(String u,String p,String n ,String s ) {
+        this.name=u;
+        this.password=p;
+        this.name=n;
+        this.surname=s;
+    }
 
     public String getName() {
         return name;
